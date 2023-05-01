@@ -1,0 +1,57 @@
+.support {
+    display:flex;
+    background-color:#e2e3d7;
+
+}
+.support1{
+    display:flex;
+}
+.support2{
+   margin-top: 0px;
+   line-height: 0%;
+   /* border: 1px solid red; */
+   margin-left: 5px;
+}
+.support2>h6{
+    color:palevioletred
+}
+.support2>h6:hover{
+    cursor: pointer;
+}
+.product-supplier-meesho{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+.meesho-supplier{
+    width:30%;
+    margin-top: 30px;
+}
+.meesho-supplier>button{
+    color:white;
+    background-color: #f43397;
+    width:150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.meesho-supplier>button:hover{
+    color:#f43397;
+    background-color: white;
+}
+.meesho-list-supplier{
+    margin-top: 10px;
+    /* border: 1px solid blue; */
+}
+.meesho-list-supplier>h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.meesho-list-supplier>ul li{
+    list-style: none;
+    margin-right:100px;
+    text-align: start;
+    /* border: 1px solid red; */
+    line-height: 30px;
+}

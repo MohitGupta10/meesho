@@ -1,0 +1,38 @@
+.supplier-repo1>p{
+    margin-left:30px;
+    /* border: 1px solid red; */
+    margin-top: 0px;
+}
+.sellHeaders{
+    text-align: center;
+    font-size: 30px;
+}
+.sell-supplier-detail{
+    /* border: 1px solid red; */
+    margin-top:90px;
+    text-align: center;
+    line-height: 10px;
+}
+.sell-product-headers{
+    text-align: center;
+    font-size: 30px;
+}
+.sell-Resgister{
+    /* border:1px solid red; */
+    display: flex;
+}
+.sell-resgister-seller{
+    /* border: 1px solid blue; */
+    margin:auto;
+    height: 200px;
+    margin-left: 50px;
+}
+.sell-product-imgdiv{
+    margin-top:50px;
+}
+.supplierGrow-part1 >h3{
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    width: 300px;
+    font-size: 30px;
+}

@@ -1,0 +1,54 @@
+.ProfileLogin{
+    border: 1px solid red;
+    margin-top: 200px;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+}
+.ProfileLogin>div img{
+    width:340px;
+    height: 300px;
+    margin: auto;
+    margin-top: 2px;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+.ProfileLogin>div h3{
+    margin-left: 5px;
+}
+.input1{
+    width:50px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 0px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    margin-left: 5px;
+}
+.input2{
+    width:100px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 0px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    margin-left: 5px;
+}
+.profilebtn{
+    margin-left: 10px;
+    width: 300px;
+    margin-top: 10px;
+}
+.profilebtn{
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(244, 51,151);
+    color:white;
+    cursor: pointer;
+}

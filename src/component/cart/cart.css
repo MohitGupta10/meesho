@@ -1,0 +1,18 @@
+.cart>ul{
+    display:flex;
+    list-style: none;
+    border: 1px solid blue;
+    width:500px
+}
+.cart>ul li{
+    /* border: 1px solid green; */
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.cart>ul>li img{
+    width:100px;
+    border: 1px solid red;
+    height: 40px;
+    margin-top: 10px;
+}

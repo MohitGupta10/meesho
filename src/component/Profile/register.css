@@ -1,0 +1,50 @@
+.register{
+    border:1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.register>img{
+    margin-left: 50px;
+}
+.register>h5{
+    border: 1px solid blue;
+    margin-left: 60%;
+}
+.register>button{
+    margin-right: 10px;
+    width: 100px;
+    background-color:white;
+    height: 40px;
+    margin-top: 10px;
+    color:#3C29B7;
+}
+.detail-register{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    margin-left:50px;
+    line-height: 20px;
+}
+.detail-register>h2{
+    line-height: 5px;
+}
+.detail-register>p{
+    line-height: 1px;
+}
+.detail-register>input{
+    width:200px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius:5px;
+}
+.detail-register>ul li{
+    font-size: 12px;
+    line-height:20px;
+}
+.detail-register>p{
+    font-size: 12px;
+}
+.detail-register>button{
+    width:300px;
+    height: 30px;
+}
