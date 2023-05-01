@@ -246,7 +246,7 @@
     }
     .nav{
     display:flex;
-    max-width:55%;
+    max-width:95%;
     /* height:55%; */
     border: 1px solid teal;
     /* justify-content: space-evenly; */
