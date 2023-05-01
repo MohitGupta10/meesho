@@ -363,7 +363,7 @@
 
 @media screen and (max-width: 769px){
    .Card1{
-     border:1px solid red;
+     /* border:1px solid red; */
      min-width:80%;
      margin: auto;
      margin-top:32%;
@@ -396,7 +396,7 @@
 
 .card1-Lowest>h1{
     font-size: 15px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 35%;
 }
 .card1-Lowest>button{
