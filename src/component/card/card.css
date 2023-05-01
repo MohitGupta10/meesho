@@ -363,7 +363,7 @@
 
 @media screen and (max-width: 769px){
    .Card1{
-     border:1px solid red;
+     /* border:1px solid red; */
      max-width:80%;
      margin: auto;
      margin-top:32%;
@@ -421,7 +421,7 @@
     margin-top:12%;
     background-size:99%;
     background-repeat: no-repeat;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .card2item1{
     /* border: 1px solid blue; */
@@ -443,7 +443,7 @@
 
 }
 .card3{
-    border:1px solid red;
+    /* border:1px solid red; */
     max-width:80%;
     height:25vh;
     /* height: 80vh; */
@@ -513,7 +513,7 @@
     /* border: 1px solid red; */
 }
 .card4{
-    border:1px solid red;
+    /* border:1px solid red; */
     max-width:80%;
     height: 30vh;
     background-repeat: no-repeat;
@@ -593,7 +593,7 @@
     margin: auto;
     margin-top:5%;
     /* padding: 10px; */
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 .card5-heading1{
     /* border:1px solid red; */
@@ -620,7 +620,7 @@
 .card6{
     max-width:80%;
     /* height: 140%; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url("https://images.meesho.com/images/pow/supplyBannerDesktop.webp");
     background-repeat: no-repeat;
     background-size: 99% 20vh;
@@ -657,7 +657,7 @@
     font-size: 8px;
 }
 .card7part{
-    border:1px solid blue;
+    /* border:1px solid blue; */
     display:flex;
     flex-direction: column ;
     max-width: 80%;
