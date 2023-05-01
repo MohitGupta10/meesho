@@ -3,6 +3,7 @@ import { useState, useEffect, createContext } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 // import { createPath } from "react-router-dom";
+const Data=createContext(null)
 export const Card = () => {
   const cart = [];
   const [data, setData] = useState([]);
@@ -45,7 +46,7 @@ export const Card = () => {
   };
   return (
     <>
-      {/* <Data.Provider value={addcart}></Data.Provider> */}
+      <Data.Provider value={addcart}></Data.Provider>
       <div className="Card1">
         <div className="card1-Lowest">
           <h1>Lowest Prices Best Quality Shopping</h1>

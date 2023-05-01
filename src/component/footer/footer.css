@@ -65,13 +65,14 @@
 
 @media screen and (max-width: 769px){
     .footer{
-        min-width:50%;
-        min-height:100vh;
+        width:50%;
+        height:100vh;
         /* border: 1px solid red; */
+        margin: auto;
         margin-top: 5%;
         display: flex;
         flex-direction: column;
-        background-color: transparent;
+        /* background-color: transparent; */
    }
    .imgtag1{
        width:45px;
@@ -82,7 +83,7 @@
        /* border:1px solid brown; */
        margin-left: 5%;
        margin-top: 3%;
-       min-width:50%
+       width:90%
    }
    .title1>h2{
        font-size: 20px;
@@ -94,7 +95,7 @@
    }
    .title2{
        width:50%;
-       margin-left: 2%;
+       margin-left: 5%;
        /* border: 1px solid blue; */
        margin-top: 3%;
    }
@@ -108,6 +109,7 @@
        width:50%;
        /* border: 1px solid blue; */
        margin-top: 3%;
+       margin-left: 5%;
    }
    .title3>h2{
        font-weight: 500;
@@ -118,6 +120,7 @@
        width: 50%;
        /* border: 1px solid red; */
        margin-top: 4%;
+       margin-left: 5%;
    }
    .title4>h2{
        font-size: 15px;
@@ -126,7 +129,7 @@
        width:50%;
        height: 300px;
        margin-top: 4%;
-       margin-right: 2%;
+       margin-left: 5%;
    }
    .title5>h2{
        font-size: 20px;

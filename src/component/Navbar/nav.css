@@ -229,7 +229,7 @@
 
 @media only screen and (max-width:768px){
     .main-nav{
-        max-width:45%;
+        width :77%;;
         /* top: 10px; */
         /* border: 1px solid blue; */
         background-color:blueviolet;
@@ -246,14 +246,15 @@
     }
     .nav{
     display:flex;
-    min-width:90%;
+    width:110%;
     /* height:55%; */
     /* border: 1px solid teal; */
     /* justify-content: space-evenly; */
     /* position: fixed; */
     /* z-index: 2; */
+    margin: auto;
     margin-top: 0px;
-    /* margin: auto; */
+    
     }
     .download{
         display: none;
@@ -285,7 +286,7 @@
     .format-icon-click{
         display: flex;
         flex-direction: column;
-        width:100%;
+        width:70%;
         /* height: 50vh; */
         background-color:#ffffff;
         justify-content:start;
@@ -324,14 +325,14 @@
         /* height: 10vh; */
     }
   .item{
-     max-width:99%;
+     width:110%;
      /* border: 1px solid red;; */
   }
   .item >.item-list .item-list1{
     list-style: none;
     align-items:start;
     /* border: 1px solid red; */
-    font-size: 8px;
+    font-size: 10px;
     /* height: 40%; */
     /* margin-left: 0px; */
 }
