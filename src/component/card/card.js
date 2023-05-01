@@ -1,5 +1,5 @@
 import "./card.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, createContext } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 // import { createPath } from "react-router-dom";
@@ -7,6 +7,7 @@ export const Card = () => {
   const cart = [];
   const [data, setData] = useState([]);
   const [sorting, setSorting] = useState("1");
+  const [addcart, setAddcart] = useState(0);
   const navigate = useNavigate();
   useEffect(() => {
     axios.get("https://dummyjson.com/products").then((res) => {
@@ -17,6 +18,7 @@ export const Card = () => {
     setSorting(e.target.value);
   };
   const addtocart = (data) => {
+    setAddcart(addcart + 1);
     cart.push(data);
     alert("item to cart susscessfully");
   };
@@ -43,6 +45,7 @@ export const Card = () => {
   };
   return (
     <>
+      {/* <Data.Provider value={addcart}></Data.Provider> */}
       <div className="Card1">
         <div className="card1-Lowest">
           <h1>Lowest Prices Best Quality Shopping</h1>

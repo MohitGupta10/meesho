@@ -229,7 +229,7 @@
 
 @media only screen and (max-width:768px){
     .main-nav{
-        width:60%;
+        min-width:60%;
         /* top: 10px; */
         /* border: 1px solid blue; */
         background-color:blueviolet;
@@ -246,7 +246,7 @@
     }
     .nav{
     display:flex;
-    width:85%;
+    min-width:85%;
     /* height:55%; */
     border: 1px solid teal;
     /* justify-content: space-evenly; */
