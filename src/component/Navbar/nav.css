@@ -246,7 +246,7 @@
     }
     .nav{
     display:flex;
-    min-width:85%;
+    max-width:75%;
     /* height:55%; */
     border: 1px solid teal;
     /* justify-content: space-evenly; */
@@ -291,7 +291,7 @@
         justify-content:start;
         /* margin-top:5px; */
         list-style: none;
-        font-size: 13px;
+        font-size: 12px;
         background-color: black;
         color: white;
         /* border: 1px solid red;; */
@@ -330,7 +330,7 @@
     list-style: none;
     align-items:start;
     /* border: 1px solid red; */
-    font-size: 10px;
+    font-size: 8px;
     /* height: 40%; */
     margin-left: 0px;
 }
