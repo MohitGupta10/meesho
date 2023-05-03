@@ -1,8 +1,9 @@
 import "./cart/cart.css";
 import { useState } from "react";
-let total = 0;
+var total = [];
 export const Carted = (props) => {
   const [quantity, setQuantity] = useState(1);
+  let totalsubtotal = 0;
   const Add = () => {
     setQuantity(quantity + 1);
   };
@@ -13,7 +14,9 @@ export const Carted = (props) => {
   };
   let subtotal = props.price * quantity;
   let discountP = Math.floor(subtotal * props.discount) / 100;
-  let totalsubtotal = Math.floor(subtotal - discountP);
+  totalsubtotal = Math.floor(subtotal - discountP);
+  // console.log(totalsubtotal);
+  total.push(totalsubtotal);
   return (
     <>
       <div className="Carted">
@@ -27,6 +30,21 @@ export const Carted = (props) => {
         <button onClick={Sub}>-</button>
         <p>Subtotal:{totalsubtotal}</p>
       </div>
+    </>
+  );
+};
+
+export const TOTAL = () => {
+  var sum = 0;
+  for (let i = 0; i < total.length; i++) {
+    if (i % 2 == 0) {
+      sum += total[i];
+    }
+  }
+
+  return (
+    <>
+      <h2>TOTAL:{sum}</h2>
     </>
   );
 };

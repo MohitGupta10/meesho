@@ -3,14 +3,21 @@
 }
 .Carted{
   display:flex;
-  width:90%;
+  flex-direction: column;
+  width:70%;
+  /* border: 1px solid red; */
+  background-color: aqua;
+  border-radius: 10px;
+  margin: auto;
+  /* align-items: center; */
 }
 .Carted>img{
-    width:50px;
+    width:100px;
     /* border: 1px solid blue; */
-    height: 30%;
+    height: 70%;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 15px;
+   
 }
 .Carted>input{
     width: 50px;
@@ -29,24 +36,54 @@
 }
 .Carted>button{
     margin: auto;
+    border: 1px solid red;
+}
+.carted-data{
+    width:80%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+.carted-button>button{
+  border: 1px solid red;
+  /* text-align: center; */
+  font-size: 15px;
+  background-color: aqua;
+  margin:auto;
+  /* border:0px */
 }
 .carted-button{
-    /* margin-left: auto; */
-    /* border: 1px solid red; */
-    width:15%;
+    border: 1px solid teal;
     margin: auto;
-    margin-left: 0%;
-}
-/* .carted-main{
-    border: 1px solid blue;
-    display: flex;
-    flex-direction: column;
-} */
-.carted-data{
-    width:70%;
-    margin: auto;
+    width:70%
+    /* background-color: aqua; */
 }
 .carted-main1{
     /* border: 1px solid blue; */
     display: flex;
+}
+.Carted:hover{
+    border-bottom: 3px solid blue;
+    box-shadow:5px 10px #888888;
+}
+.carted-main>button{
+    color:#F43397;
+    padding: 10px;
+    font-size: 20px;
+}
+.empty{
+    width:50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.empty>button{
+    color:#F43397;
+    padding: 10px;
+}
+.empty>button:hover{
+    cursor: pointer;
+}
+h1{
+    text-align: center;
 }
