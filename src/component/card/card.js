@@ -1,14 +1,11 @@
 import "./card.css";
-import { useState, useEffect, createContext } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-// import { createPath } from "react-router-dom";
-const Data=createContext(null)
 export const Card = () => {
   const cart = [];
   const [data, setData] = useState([]);
   const [sorting, setSorting] = useState("1");
-  const [addcart, setAddcart] = useState(0);
   const navigate = useNavigate();
   useEffect(() => {
     axios.get("https://dummyjson.com/products").then((res) => {
@@ -19,12 +16,13 @@ export const Card = () => {
     setSorting(e.target.value);
   };
   const addtocart = (data) => {
-    setAddcart(addcart + 1);
+    // setAddcart(addcart + 1);
     cart.push(data);
+    localStorage.setItem("items", JSON.stringify(cart));
     alert("item to cart susscessfully");
   };
   const redirectCart = () => {
-    navigate("/cart", { state: cart });
+    // navigate("/cart", { state: cart });
   };
 
   const DataSorted = [...data].sort((a, b) => {
@@ -46,7 +44,6 @@ export const Card = () => {
   };
   return (
     <>
-      <Data.Provider value={addcart}></Data.Provider>
       <div className="Card1">
         <div className="card1-Lowest">
           <h1>Lowest Prices Best Quality Shopping</h1>
@@ -178,9 +175,6 @@ export const Card = () => {
       </div>
       <div>
         <div>
-          <button style={styles} onClick={redirectCart}>
-            cart
-          </button>
           <h2>Product For you </h2>
         </div>
       </div>

@@ -4,7 +4,7 @@ import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import ProductionQuantityLimitsIcon from "@mui/icons-material/ProductionQuantityLimits";
-import { useState ,useContext} from "react";
+import { useState, useContext } from "react";
 export const Navbar = () => {
   const [showlist, setShowlist] = useState(false);
   const [profile, setProfile] = useState(false);
@@ -87,10 +87,20 @@ export const Navbar = () => {
             {icon && (
               <div className="format-icon-div">
                 <ul className="format-icon-click">
-                  <li>Download</li>
-                  <li>Become a Supplier</li>
-                  <li>Profile</li>
-                  <li>Cart</li>
+                  <li>
+                    <Link className="format-icon-LinkTag" to="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow">
+                      <span className="spantag">Download App</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="format-icon-LinkTag"to="/supplier">Become a Supplier</Link>
+                  </li>
+                  <li>
+                    <Link className="format-icon-LinkTag" to="/profile">Profile</Link>
+                  </li>
+                  <li>
+                    <Link className="format-icon-LinkTag" to="/cart">Cart</Link>
+                  </li>
                 </ul>
               </div>
             )}
