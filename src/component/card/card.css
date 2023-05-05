@@ -353,8 +353,13 @@
     list-style: none;
 }
 .imgTag{
-    width:40px;
+    width:60%;
+    height: 40%;
+    /* border: 1px solid red; */
     /* height: 40px; */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 .card7-imgdiv3{
    /* border:1px solid blue; */
