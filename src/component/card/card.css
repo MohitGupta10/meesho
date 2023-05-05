@@ -335,6 +335,10 @@
     /* height: 40%; */
     /* border: 1px solid red; */
 }
+.card7part2:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+}
 .card7-imgdiv1{
     /* border:1px solid blue; */
     display: flex;
